@@ -15,7 +15,7 @@ Feature: Create new assignment
     And the user clicks Create New Assignment button
     And the user creates assignment
       | user         | asset  |
-      | SD0012       | random |
+      | SD0002       | random |
     Then the user should see the assignment in the list
       | user         | asset  |
       | chuongt      | random |
